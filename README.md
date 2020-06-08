@@ -1,2 +1,17 @@
-# base-plan-skeleton
-Template for all new Chef Base Plans to simplify creation of repositories.
+# freetype
+
+[![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.freetype?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=151&branchName=master)
+
+A software library to render fonts
+
+## Maintainers
+
+* The Habitat Maintainers: <humans@habitat.sh>
+
+## Type of Package
+
+Binary package
+
+## Usage
+
+*TODO: Add instructions for usage*
