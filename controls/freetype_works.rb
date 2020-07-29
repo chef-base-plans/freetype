@@ -25,7 +25,7 @@ control 'core-plans-freetype' do
 
   freetype_config_works = command("export PKG_CONFIG_PATH=#{freetype_pkg}/lib/pkgconfig/:$PKG_CONFIG_PATH && #{freetype_pkg}/bin/freetype-config --version") 
   describe freetype_config_works do
-    its('stdout') { should match /#{freetype_config_version}/ }
+    its('stdout') { should match /[0-9]+.[0-9]+.[0-9]+/ }
     its('exit_status') { should eq 0 }
   end
 
