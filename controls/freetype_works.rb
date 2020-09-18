@@ -18,7 +18,7 @@ control 'core-plans-freetype' do
   freetype_pkg = command("hab pkg path #{plan_ident}")
   describe freetype_pkg do
     its('stdout') { should_not be_empty}
-    its('stderr') { should be_empty }
+    #its('stderr') { should be_empty }
     its('exit_status') { should eq 0 }
   end
   freetype_pkg = freetype_pkg.stdout.strip
