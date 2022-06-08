@@ -1,5 +1,5 @@
 pkg_name=freetype
-pkg_version=2.10.4
+pkg_version=2.11.0
 pkg_origin=core
 pkg_description="A software library to render fonts"
 pkg_upstream_url="https://www.freetype.org"
@@ -7,7 +7,7 @@ pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=('FreeType' 'GPL-2.0')
 pkg_source=http://download.savannah.gnu.org/releases/freetype/${pkg_name}-${pkg_version}.tar.gz
 pkg_filename=${pkg_name}-${pkg_version}.tar.gz
-pkg_shasum="5eab795ebb23ac77001cfb68b7d4d50b5d6c7469247b0b01b2c953269f658dac"
+pkg_shasum=a45c6b403413abd5706f3582f04c8339d26397c4304b78fa552f2215df64101f
 pkg_build_deps=(
   core/diffutils
   core/gcc
